@@ -1,0 +1,50 @@
+[2022-07-07 07:26:47] [34;1mTotal                      ethash: 58.01Mh/s, avg 57.79Mh/s, pool 58.26Mh/s a:2096 r:5[0m
+[2022-07-07 07:26:47] [34;1m----------------------------------------- Pool Status ------------------------------------------[0m
+[2022-07-07 07:26:47] [34;1meth.2miners.com            ethash: 56.13Mh/s, avg 57.21Mh/s, pool 58.26Mh/s a:2096 r:5[0m
+[2022-07-07 07:26:47] [34;1m------------------------------------------------------------------------------------------------[0m
+[2022-07-07 07:27:09] [31;1mPool eth.2miners.com rpc method "eth_submitWork" timed out after 63 seconds.  Reconnecting.[0m
+[2022-07-07 07:27:17] [34;1m------------------------------------------------------------------------------------------------[0m
+[2022-07-07 07:27:17] [34;1mMining ethash with 2 GPU workers[0m
+[2022-07-07 07:27:17] [34;1mGPU PCIe      CUs CoreMHz SocMHz MemMHz TEdge TJct  TMem  FanPct  FanRpm  VDDC   Power  ETH Cfg[0m
+[2022-07-07 07:27:17] [34;1m0   04:00.0   28  900     1200   950    47C   51C   68C   73.73%  2664    618 mV  41 W  A440[0m
+[2022-07-07 07:27:17] [34;1m1   0a:00.0   28  900     1200   950    48C   52C   66C   73.73%  2664    618 mV  39 W  A432[0m
+[2022-07-07 07:27:17] [34;1m[0m
+[2022-07-07 07:27:17] [34;1mStats Uptime: 3 days, 15:13:19[0m
+[2022-07-07 07:27:17] [34;1m----------------------------------------- GPU Status -------------------------------------------[0m
+[2022-07-07 07:27:17] [34;1mGPU  0 [47C, fan 73%]      ethash: 29.01Mh/s, avg 28.90Mh/s, pool 29.82Mh/s a:1073 r:2 hw:0[0m
+[2022-07-07 07:27:17] [34;1mGPU  1 [48C, fan 73%]      ethash: 29.00Mh/s, avg 28.89Mh/s, pool 28.43Mh/s a:1023 r:3 hw:0[0m
+[2022-07-07 07:27:17] [34;1mTotal                      ethash: 58.01Mh/s, avg 57.79Mh/s, pool 58.25Mh/s a:2096 r:5[0m
+[2022-07-07 07:27:17] [34;1m----------------------------------------- Pool Status ------------------------------------------[0m
+[2022-07-07 07:27:29] [31;1mPool eth.2miners.com failed to resolve host address.[0m
+[2022-07-07 07:27:49] [31;1mPool eth.2miners.com failed to resolve host address.[0m
+[2022-07-07 07:28:00] [31;1mPool eth.2miners.com failed to resolve host address.[0m
+[2022-07-07 07:28:00] [34;1meth.2miners.com            ethash: 55.62Mh/s, avg 57.21Mh/s, pool 58.25Mh/s a:2096 r:5[0m
+[2022-07-07 07:28:00] [34;1m------------------------------------------------------------------------------------------------[0m
+[2022-07-07 07:28:00] [31;1mWatchdog API alert: API thread seems stuck in states 2 / 3 since 45 secs.[0m
+[2022-07-07 07:28:00] ERROR - gpu monitor refresh thread STUCK (0 secs, stuck at worker 0).
+[2022-07-07 07:28:04] Pool eth.2miners.com connecting to address 51.195.4.174.
+[2022-07-07 07:28:04] Pool eth.2miners.com successfully connected to address 51.195.4.174.
+[2022-07-07 07:28:04] Pool eth.2miners.com login succeeded.
+[2022-07-07 07:28:04] [33;1mPool eth.2miners.com set difficulty to 2.032 (8726 MH)[0m
+[2022-07-07 07:28:04] Pool eth.2miners.com received new job. (job_id: 0x2df79756804..., diff 2.032 / 8726 MH)
+[2022-07-07 07:28:04] [33;1mPool eth.2miners.com received new job epoch 503 (variant ethash), cache built in 0.0 secs.[0m
+[2022-07-07 07:28:09] Pool eth.2miners.com received new job. (job_id: 0xe25e07d91c2..., diff 2.032 / 8726 MH)
+[2022-07-07 07:28:16] Pool eth.2miners.com received new job. (job_id: 0xac46ebfb46b..., diff 2.032 / 8726 MH)
+[2022-07-07 07:28:23] Pool eth.2miners.com received new job. (job_id: 0x52f213cd489..., diff 2.032 / 8726 MH)
+[2022-07-07 07:28:25] Pool eth.2miners.com received new job. (job_id: 0x45798d10253..., diff 2.032 / 8726 MH)
+[2022-07-07 07:28:30] [34;1m------------------------------------------------------------------------------------------------[0m
+[2022-07-07 07:28:30] [34;1mMining ethash with 2 GPU workers[0m
+[2022-07-07 07:28:30] [34;1mGPU PCIe      CUs CoreMHz SocMHz MemMHz TEdge TJct  TMem  FanPct  FanRpm  VDDC   Power  ETH Cfg[0m
+[2022-07-07 07:28:30] [34;1m0   04:00.0   28  900     1200   950    47C   50C   66C   73.73%  2664    618 mV  40 W  A440[0m
+[2022-07-07 07:28:30] [34;1m1   0a:00.0   28  900     1200   950    47C   51C   64C   73.73%  2664    618 mV  39 W  A432[0m
+[2022-07-07 07:28:30] [34;1m[0m
+[2022-07-07 07:28:30] [34;1mStats Uptime: 3 days, 15:14:32[0m
+[2022-07-07 07:28:30] [34;1m----------------------------------------- GPU Status -------------------------------------------[0m
+[2022-07-07 07:28:30] [34;1mGPU  0 [47C, fan 73%]      ethash: 9.601Mh/s, avg 28.89Mh/s, pool 29.81Mh/s a:1073 r:2 hw:0[0m
+[2022-07-07 07:28:30] [34;1mGPU  1 [47C, fan 73%]      ethash: 20.28Mh/s, avg 28.89Mh/s, pool 28.42Mh/s a:1023 r:3 hw:0[0m
+[2022-07-07 07:28:30] [34;1mTotal                      ethash: 29.88Mh/s, avg 57.79Mh/s, pool 58.24Mh/s a:2096 r:5[0m
+[2022-07-07 07:28:30] [34;1m----------------------------------------- Pool Status ------------------------------------------[0m
+[2022-07-07 07:28:30] [34;1meth.2miners.com            ethash: 26.96Mh/s, avg 57.20Mh/s, pool 58.24Mh/s a:2096 r:5[0m
+[2022-07-07 07:28:30] [34;1m------------------------------------------------------------------------------------------------[0m
+[2022-07-07 07:28:30] [31;1mGPU 0: detected DEAD (04:00.0), will execute restart script watchdog.sh[0m
+[2022-07-07 07:28:30] [33;1mWatchdog script executor thread executing script 'watchdog.sh'[0m
