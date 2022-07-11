@@ -1,150 +1,150 @@
           Team Red Miner version 0.10.2
-[2022-07-07 07:29:51] Auto-detected AMD OpenCL platform 1
-[2022-07-07 07:29:53] Initializing GPU 0.
-[2022-07-07 07:29:53] Initializing GPU 1.
-[2022-07-07 07:29:53] [33;1mGPU 0 Starting tuning.[0m
-[2022-07-07 07:29:53] [33;1mGPU 0 Using ethash family smooth power approach: yes (micro delay 0)[0m
-[2022-07-07 07:29:53] [33;1mGPU 1 Starting tuning.[0m
-[2022-07-07 07:29:53] [33;1mGPU 1 Using ethash family smooth power approach: yes (micro delay 0)[0m
-[2022-07-07 07:29:53] [33;1mWatchdog script enabled, will run 'watchdog.sh' when triggered.[0m
-[2022-07-07 07:29:53] Watchdog thread starting.
-[2022-07-07 07:29:53] Successfully initialized GPU 0: Navi23 with 28 CU (PCIe 04:00.0) 
-[2022-07-07 07:29:53] Successfully initialized GPU 1: Navi23 with 28 CU (PCIe 0a:00.0) 
-[2022-07-07 07:29:53] API initialized on 127.0.0.1:65078
-[2022-07-07 07:29:53] [36;1mRuntime Command Keys: h - help, s - stats, e - enable gpu, d - disable gpu, q - quit[0m
-[2022-07-07 07:29:53] Pool eth.2miners.com connecting to address 51.195.4.174.
-[2022-07-07 07:29:53] Pool eth.2miners.com successfully connected to address 51.195.4.174.
-[2022-07-07 07:29:53] Pool eth.2miners.com login succeeded.
-[2022-07-07 07:29:53] Dev pool connected and ready.
-[2022-07-07 07:29:53] [33;1mPool eth.2miners.com set difficulty to 2.032 (8726 MH)[0m
-[2022-07-07 07:29:53] Pool eth.2miners.com received new job. (job_id: 0x54c531684ef..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:02] [33;1mPool eth.2miners.com received new job epoch 503 (variant ethash), cache built in 8.6 secs.[0m
-[2022-07-07 07:30:02] Pool eth.2miners.com received new job. (job_id: 0x543ab1b4b59..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:02] Pool eth.2miners.com received new job. (job_id: 0x5400ca2b9cb..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:02] Pool eth.2miners.com received new job. (job_id: 0x4bb6adf36ee..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:02] GPU 0 Starting DAG generation for epoch 503, 4.93 GB (single buffer mode).
-[2022-07-07 07:30:02] GPU 1 Starting DAG generation for epoch 503, 4.93 GB (single buffer mode).
-[2022-07-07 07:30:02] Pool eth.2miners.com received new job. (job_id: 0x35ef7f37664..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:03] Pool eth.2miners.com received new job. (job_id: 0x8f1e6f31256..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:09] Pool eth.2miners.com received new job. (job_id: 0x0eaef7de749..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:09] Pool eth.2miners.com received new job. (job_id: 0x2f76486e1f4..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:16] Pool eth.2miners.com received new job. (job_id: 0x3abd0a8ce41..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:17] Pool eth.2miners.com received new job. (job_id: 0x583611276f8..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:18] Pool eth.2miners.com received new job. (job_id: 0x9039e374fde..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:18] Pool eth.2miners.com received new job. (job_id: 0xaddd93c8983..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:19] GPU 0 DAG generation finished in 16.900 seconds.
-[2022-07-07 07:30:19] GPU 1 DAG generation finished in 16.887 seconds.
-[2022-07-07 07:30:23] [34;1m------------------------------------------------------------------------------------------------[0m
-[2022-07-07 07:30:23] [34;1mMining ethash with 2 GPU workers[0m
-[2022-07-07 07:30:23] [34;1mGPU PCIe      CUs CoreMHz SocMHz MemMHz TEdge TJct  TMem  FanPct  FanRpm  VDDC   Power  ETH Cfg[0m
-[2022-07-07 07:30:23] [34;1m0   04:00.0   28  900     1200   950    45C   49C   62C   73.73%  2664    618 mV  40 W  A336 (*)[0m
-[2022-07-07 07:30:23] [34;1m1   0a:00.0   28  900     1200   950    45C   49C   62C   73.73%  2664    618 mV  39 W  A336 (*)[0m
-[2022-07-07 07:30:23] [34;1m(*) Gpu is still tuning.[0m
-[2022-07-07 07:30:23] [34;1m[0m
-[2022-07-07 07:30:23] [34;1mStats Uptime: 0 days, 00:00:30[0m
-[2022-07-07 07:30:23] [34;1m----------------------------------------- GPU Status -------------------------------------------[0m
-[2022-07-07 07:30:23] [34;1mGPU  0 [45C, fan 73%]      ethash: 3.997Mh/s, avg 3.954Mh/s, pool 0.000 h/s a:0 r:0 hw:0[0m
-[2022-07-07 07:30:23] [34;1mGPU  1 [45C, fan 73%]      ethash: 3.995Mh/s, avg 3.991Mh/s, pool 0.000 h/s a:0 r:0 hw:0[0m
-[2022-07-07 07:30:23] [34;1mTotal                      ethash: 7.992Mh/s, avg 7.944Mh/s, pool 0.000 h/s a:0 r:0[0m
-[2022-07-07 07:30:23] [34;1m----------------------------------------- Pool Status ------------------------------------------[0m
-[2022-07-07 07:30:23] [34;1meth.2miners.com            ethash: 7.339Mh/s, avg 7.282Mh/s, pool 0.000 h/s a:0 r:0[0m
-[2022-07-07 07:30:23] [34;1m------------------------------------------------------------------------------------------------[0m
-[2022-07-07 07:30:25] Pool eth.2miners.com received new job. (job_id: 0x2f454e2ee79..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:32] Pool eth.2miners.com received new job. (job_id: 0xc1073d298fd..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:33] Pool eth.2miners.com received new job. (job_id: 0xb0358a38f6d..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:35] Pool eth.2miners.com received new job. (job_id: 0x4a305e64bfa..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:40] Pool eth.2miners.com received new job. (job_id: 0xf9f11aaaf31..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:42] Pool eth.2miners.com received new job. (job_id: 0x6e8ec38e36f..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:48] Pool eth.2miners.com received new job. (job_id: 0x02d1e396fc8..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:49] Pool eth.2miners.com received new job. (job_id: 0x461ca51b90a..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:49] Pool eth.2miners.com received new job. (job_id: 0xe47bf722d41..., diff 2.032 / 8726 MH)
-[2022-07-07 07:30:53] [34;1m------------------------------------------------------------------------------------------------[0m
-[2022-07-07 07:30:53] [34;1mMining ethash with 2 GPU workers[0m
-[2022-07-07 07:30:53] [34;1mGPU PCIe      CUs CoreMHz SocMHz MemMHz TEdge TJct  TMem  FanPct  FanRpm  VDDC   Power  ETH Cfg[0m
-[2022-07-07 07:30:53] [34;1m0   04:00.0   28  900     1200   950    45C   47C   60C   73.73%  2664    600 mV  14 W  A336 (*)[0m
-[2022-07-07 07:30:53] [34;1m1   0a:00.0   28  900     1200   950    47C   50C   64C   73.73%  2664    618 mV  39 W  A336 (*)[0m
-[2022-07-07 07:30:53] [34;1m(*) Gpu is still tuning.[0m
-[2022-07-07 07:30:53] [34;1m[0m
-[2022-07-07 07:30:53] [34;1mStats Uptime: 0 days, 00:01:00[0m
-[2022-07-07 07:30:53] [34;1m----------------------------------------- GPU Status -------------------------------------------[0m
-[2022-07-07 07:30:53] [34;1mGPU  0 [45C, fan 73%]      ethash: 28.42Mh/s, avg 15.19Mh/s, pool 0.000 h/s a:0 r:0 hw:0[0m
-[2022-07-07 07:30:53] [34;1mGPU  1 [47C, fan 73%]      ethash: 28.43Mh/s, avg 15.21Mh/s, pool 0.000 h/s a:0 r:0 hw:0[0m
-[2022-07-07 07:30:53] [34;1mTotal                      ethash: 56.85Mh/s, avg 30.40Mh/s, pool 0.000 h/s a:0 r:0[0m
-[2022-07-07 07:30:53] [34;1m----------------------------------------- Pool Status ------------------------------------------[0m
-[2022-07-07 07:30:53] [34;1meth.2miners.com            ethash: 56.95Mh/s, avg 30.03Mh/s, pool 0.000 h/s a:0 r:0[0m
-[2022-07-07 07:30:53] [34;1m------------------------------------------------------------------------------------------------[0m
-[2022-07-07 07:30:56] Pool eth.2miners.com received new job. (job_id: 0x25f826ad304..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:03] Pool eth.2miners.com received new job. (job_id: 0x93cf96db2e0..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:03] Pool eth.2miners.com received new job. (job_id: 0xb265c8f8a82..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:08] Pool eth.2miners.com received new job. (job_id: 0xe4d0f4fde50..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:08] Pool eth.2miners.com received new job. (job_id: 0x86aa00397fa..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:12] Pool eth.2miners.com received new job. (job_id: 0xc1e5d312be7..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:12] Pool eth.2miners.com received new job. (job_id: 0x00feeccf74b..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:15] Pool eth.2miners.com received new job. (job_id: 0x995c94e3ac8..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:15] Pool eth.2miners.com received new job. (job_id: 0xf8a41dd9a3f..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:22] Pool eth.2miners.com received new job. (job_id: 0x411cf682eb1..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:23] Pool eth.2miners.com received new job. (job_id: 0xbe76b348ce8..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:23] Pool eth.2miners.com received new job. (job_id: 0x2ccdfe0d24d..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:23] Pool eth.2miners.com received new job. (job_id: 0x08aacf02139..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:23] [34;1m------------------------------------------------------------------------------------------------[0m
-[2022-07-07 07:31:23] [34;1mMining ethash with 2 GPU workers[0m
-[2022-07-07 07:31:23] [34;1mGPU PCIe      CUs CoreMHz SocMHz MemMHz TEdge TJct  TMem  FanPct  FanRpm  VDDC   Power  ETH Cfg[0m
-[2022-07-07 07:31:23] [34;1m0   04:00.0   28  900     1200   950    47C   51C   66C   73.73%  2664    618 mV  41 W  A352 (*)[0m
-[2022-07-07 07:31:23] [34;1m1   0a:00.0   28  900     1200   950    48C   51C   64C   73.73%  2664    618 mV  39 W  A432 (*)[0m
-[2022-07-07 07:31:23] [34;1m(*) Gpu is still tuning.[0m
-[2022-07-07 07:31:23] [34;1m[0m
-[2022-07-07 07:31:23] [34;1mStats Uptime: 0 days, 00:01:30[0m
-[2022-07-07 07:31:23] [34;1m----------------------------------------- GPU Status -------------------------------------------[0m
-[2022-07-07 07:31:23] [34;1mGPU  0 [47C, fan 73%]      ethash: 28.41Mh/s, avg 20.26Mh/s, pool 0.000 h/s a:0 r:0 hw:0[0m
-[2022-07-07 07:31:23] [34;1mGPU  1 [48C, fan 73%]      ethash: 28.98Mh/s, avg 20.49Mh/s, pool 0.000 h/s a:0 r:0 hw:0[0m
-[2022-07-07 07:31:23] [34;1mTotal                      ethash: 57.39Mh/s, avg 40.75Mh/s, pool 0.000 h/s a:0 r:0[0m
-[2022-07-07 07:31:23] [34;1m----------------------------------------- Pool Status ------------------------------------------[0m
-[2022-07-07 07:31:23] [34;1meth.2miners.com            ethash: 53.97Mh/s, avg 39.28Mh/s, pool 0.000 h/s a:0 r:0[0m
-[2022-07-07 07:31:23] [34;1m------------------------------------------------------------------------------------------------[0m
-[2022-07-07 07:31:31] Pool eth.2miners.com received new job. (job_id: 0x69dcffdb25d..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:31] Pool eth.2miners.com received new job. (job_id: 0xa4587e18ec0..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:31] Pool eth.2miners.com received new job. (job_id: 0xff6063e8d3d..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:33] [33;1mGPU 0 Tuning complete. Using config A352[0m
-[2022-07-07 07:31:35] Pool eth.2miners.com received new job. (job_id: 0xae336e7e69d..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:42] Pool eth.2miners.com received new job. (job_id: 0x8e69d2128df..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:42] Pool eth.2miners.com received new job. (job_id: 0x351250ca2e2..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:43] Pool eth.2miners.com received new job. (job_id: 0xf715e4a7be3..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:43] Pool eth.2miners.com received new job. (job_id: 0x329b3c9579e..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:48] [32;1mPool eth.2miners.com share accepted. (GPU1) (a:1 r:0) (31 ms) (diff 9.20 GH)[0m
-[2022-07-07 07:31:50] Pool eth.2miners.com received new job. (job_id: 0x456aeef5c5e..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:52] Pool eth.2miners.com received new job. (job_id: 0x6f766ac330c..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:52] Pool eth.2miners.com received new job. (job_id: 0x8147ac1268c..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:53] [34;1m------------------------------------------------------------------------------------------------[0m
-[2022-07-07 07:31:53] [34;1mMining ethash with 2 GPU workers[0m
-[2022-07-07 07:31:53] [34;1mGPU PCIe      CUs CoreMHz SocMHz MemMHz TEdge TJct  TMem  FanPct  FanRpm  VDDC   Power  ETH Cfg[0m
-[2022-07-07 07:31:53] [34;1m0   04:00.0   28  900     1200   950    47C   51C   66C   73.73%  2664    618 mV  40 W  A352[0m
-[2022-07-07 07:31:53] [34;1m1   0a:00.0   28  900     1200   950    48C   51C   64C   73.73%  2664    618 mV  39 W  A430 (*)[0m
-[2022-07-07 07:31:53] [34;1m(*) Gpu is still tuning.[0m
-[2022-07-07 07:31:53] [34;1m[0m
-[2022-07-07 07:31:53] [34;1mStats Uptime: 0 days, 00:02:00[0m
-[2022-07-07 07:31:53] [34;1m----------------------------------------- GPU Status -------------------------------------------[0m
-[2022-07-07 07:31:53] [34;1mGPU  0 [47C, fan 73%]      ethash: 28.96Mh/s, avg 22.17Mh/s, pool 0.000 h/s a:0 r:0 hw:0[0m
-[2022-07-07 07:31:53] [34;1mGPU  1 [48C, fan 73%]      ethash: 29.00Mh/s, avg 22.48Mh/s, pool 72.68Mh/s a:1 r:0 hw:0[0m
-[2022-07-07 07:31:53] [34;1mTotal                      ethash: 57.96Mh/s, avg 44.65Mh/s, pool 72.68Mh/s a:1 r:0[0m
-[2022-07-07 07:31:53] [34;1m----------------------------------------- Pool Status ------------------------------------------[0m
-[2022-07-07 07:31:53] [34;1meth.2miners.com            ethash: 57.43Mh/s, avg 43.54Mh/s, pool 72.56Mh/s a:1 r:0[0m
-[2022-07-07 07:31:53] [34;1m------------------------------------------------------------------------------------------------[0m
-[2022-07-07 07:31:56] Pool eth.2miners.com received new job. (job_id: 0xe840222551b..., diff 2.032 / 8726 MH)
-[2022-07-07 07:31:56] Pool eth.2miners.com received new job. (job_id: 0x4dab6d5efd7..., diff 2.032 / 8726 MH)
-[2022-07-07 07:32:01] [33;1mGPU 1 Tuning complete. Using config A432[0m
-[2022-07-07 07:32:03] Pool eth.2miners.com received new job. (job_id: 0x491e3078bea..., diff 2.032 / 8726 MH)
-[2022-07-07 07:32:04] Pool eth.2miners.com received new job. (job_id: 0xf7326a7f720..., diff 2.032 / 8726 MH)
-[2022-07-07 07:32:10] Pool eth.2miners.com received new job. (job_id: 0x11c5a29c2ca..., diff 2.032 / 8726 MH)
-[2022-07-07 07:32:10] Pool eth.2miners.com received new job. (job_id: 0xc61eeeb3415..., diff 2.032 / 8726 MH)
-[2022-07-07 07:32:15] Pool eth.2miners.com received new job. (job_id: 0x30e4674f76b..., diff 2.032 / 8726 MH)
-[2022-07-07 07:32:20] Pool eth.2miners.com received new job. (job_id: 0x1e9ec61e114..., diff 2.032 / 8726 MH)
-[2022-07-07 07:32:20] Pool eth.2miners.com received new job. (job_id: 0xc8dc526f846..., diff 2.032 / 8726 MH)
-[2022-07-07 07:32:23] Pool eth.2miners.com received new job. (job_id: 0x07e5d440bd8..., diff 2.032 / 8726 MH)
-[2022-07-07 07:32:23] Pool eth.2miners.com received new job. (job_id: 0x9cc7d5a4925..., diff 2.032 / 8726 MH)
-[2022-07-07 07:32:23] [34;1m------------------------------------------------------------------------------------------------[0m
-[2022-07-07 07:32:23] [34;1mMining ethash with 2 GPU workers[0m
-[2022-07-07 07:32:23] [34;1mGPU PCIe      CUs CoreMHz SocMHz MemMHz TEdge TJct  TMem  FanPct  FanRpm  VDDC   Power  ETH Cfg[0m
-[2022-07-07 07:32:23] [34;1m0   04:00.0   28  900     1200   950    47C   51C   66C   73.73%  2664    618 mV  40 W  A352[0m
-[2022-07-07 07:32:23] [34;1m1   0a:00.0   28  900     1200   950    48C   52C   64C   73.73%  2664    618 mV  39 W  A432[0m
-[2022-07-07 07:32:23] [34;1m[0m
-[2022-07-07 07:32:23] [34;1mStats Uptime: 0 days, 00:02:30[0m
+[2022-07-10 05:27:42] Auto-detected AMD OpenCL platform 1
+[2022-07-10 05:27:44] Initializing GPU 0.
+[2022-07-10 05:27:44] Initializing GPU 1.
+[2022-07-10 05:27:44] [33;1mGPU 0 Starting tuning.[0m
+[2022-07-10 05:27:44] [33;1mGPU 0 Using ethash family smooth power approach: yes (micro delay 0)[0m
+[2022-07-10 05:27:44] [33;1mGPU 1 Starting tuning.[0m
+[2022-07-10 05:27:44] [33;1mGPU 1 Using ethash family smooth power approach: yes (micro delay 0)[0m
+[2022-07-10 05:27:44] [33;1mWatchdog script enabled, will run 'watchdog.sh' when triggered.[0m
+[2022-07-10 05:27:44] API initialized on 127.0.0.1:65078
+[2022-07-10 05:27:44] [36;1mRuntime Command Keys: h - help, s - stats, e - enable gpu, d - disable gpu, q - quit[0m
+[2022-07-10 05:27:44] Successfully initialized GPU 0: Navi23 with 28 CU (PCIe 04:00.0) 
+[2022-07-10 05:27:44] Successfully initialized GPU 1: Navi23 with 28 CU (PCIe 0a:00.0) 
+[2022-07-10 05:27:44] Watchdog thread starting.
+[2022-07-10 05:27:44] Pool eth.2miners.com connecting to address 51.195.88.15.
+[2022-07-10 05:27:44] Pool eth.2miners.com successfully connected to address 51.195.88.15.
+[2022-07-10 05:27:44] Pool eth.2miners.com login succeeded.
+[2022-07-10 05:27:44] Dev pool connected and ready.
+[2022-07-10 05:27:44] [33;1mPool eth.2miners.com set difficulty to 2.032 (8726 MH)[0m
+[2022-07-10 05:27:44] Pool eth.2miners.com received new job. (job_id: 0xaea554cb541..., diff 2.032 / 8726 MH)
+[2022-07-10 05:27:53] [33;1mPool eth.2miners.com received new job epoch 503 (variant ethash), cache built in 8.7 secs.[0m
+[2022-07-10 05:27:53] Pool eth.2miners.com received new job. (job_id: 0x3538427a21c..., diff 2.032 / 8726 MH)
+[2022-07-10 05:27:53] Pool eth.2miners.com received new job. (job_id: 0xcf4db27a712..., diff 2.032 / 8726 MH)
+[2022-07-10 05:27:53] Pool eth.2miners.com received new job. (job_id: 0x5f73911c898..., diff 2.032 / 8726 MH)
+[2022-07-10 05:27:53] Pool eth.2miners.com received new job. (job_id: 0xb18bd5ad915..., diff 2.032 / 8726 MH)
+[2022-07-10 05:27:53] Pool eth.2miners.com received new job. (job_id: 0xddffbf824f9..., diff 2.032 / 8726 MH)
+[2022-07-10 05:27:53] GPU 1 Starting DAG generation for epoch 503, 4.93 GB (single buffer mode).
+[2022-07-10 05:27:53] GPU 0 Starting DAG generation for epoch 503, 4.93 GB (single buffer mode).
+[2022-07-10 05:27:53] Pool eth.2miners.com received new job. (job_id: 0x16ecd6b306b..., diff 2.032 / 8726 MH)
+[2022-07-10 05:27:55] Pool eth.2miners.com received new job. (job_id: 0x8abec9568ea..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:00] Pool eth.2miners.com received new job. (job_id: 0x7b64f4684fb..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:03] Pool eth.2miners.com received new job. (job_id: 0xb00a47bb930..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:08] Pool eth.2miners.com received new job. (job_id: 0x7b2e49cc1bb..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:10] Pool eth.2miners.com received new job. (job_id: 0x85dc298109d..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:10] Pool eth.2miners.com received new job. (job_id: 0x890733ce4ce..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:10] GPU 1 DAG generation finished in 16.882 seconds.
+[2022-07-10 05:28:10] GPU 0 DAG generation finished in 16.890 seconds.
+[2022-07-10 05:28:14] [34;1m------------------------------------------------------------------------------------------------[0m
+[2022-07-10 05:28:14] [34;1mMining ethash with 2 GPU workers[0m
+[2022-07-10 05:28:14] [34;1mGPU PCIe      CUs CoreMHz SocMHz MemMHz TEdge TJct  TMem  FanPct  FanRpm  VDDC   Power  ETH Cfg[0m
+[2022-07-10 05:28:14] [34;1m0   04:00.0   28  900     1200   950    46C   50C   64C   73.73%  2664    618 mV  40 W  A336 (*)[0m
+[2022-07-10 05:28:14] [34;1m1   0a:00.0   28  900     1200   950    46C   50C   62C   73.73%  2664    618 mV  39 W  A336 (*)[0m
+[2022-07-10 05:28:14] [34;1m(*) Gpu is still tuning.[0m
+[2022-07-10 05:28:14] [34;1m[0m
+[2022-07-10 05:28:14] [34;1mStats Uptime: 0 days, 00:00:30[0m
+[2022-07-10 05:28:14] [34;1m----------------------------------------- GPU Status -------------------------------------------[0m
+[2022-07-10 05:28:14] [34;1mGPU  0 [46C, fan 73%]      ethash: 3.952Mh/s, avg 3.945Mh/s, pool 0.000 h/s a:0 r:0 hw:0[0m
+[2022-07-10 05:28:14] [34;1mGPU  1 [46C, fan 73%]      ethash: 3.977Mh/s, avg 3.983Mh/s, pool 0.000 h/s a:0 r:0 hw:0[0m
+[2022-07-10 05:28:14] [34;1mTotal                      ethash: 7.930Mh/s, avg 7.928Mh/s, pool 0.000 h/s a:0 r:0[0m
+[2022-07-10 05:28:14] [34;1m----------------------------------------- Pool Status ------------------------------------------[0m
+[2022-07-10 05:28:14] [34;1meth.2miners.com            ethash: 7.281Mh/s, avg 7.266Mh/s, pool 0.000 h/s a:0 r:0[0m
+[2022-07-10 05:28:14] [34;1m------------------------------------------------------------------------------------------------[0m
+[2022-07-10 05:28:17] Pool eth.2miners.com received new job. (job_id: 0x4cbf58d3419..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:17] Pool eth.2miners.com received new job. (job_id: 0xc3153f03690..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:21] Pool eth.2miners.com received new job. (job_id: 0x1f738940cfd..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:21] Pool eth.2miners.com received new job. (job_id: 0xcb5ec586aea..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:21] Pool eth.2miners.com received new job. (job_id: 0xd426db825b8..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:24] Pool eth.2miners.com received new job. (job_id: 0x06f1b5dd24d..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:25] Pool eth.2miners.com received new job. (job_id: 0x598560f5f98..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:25] Pool eth.2miners.com received new job. (job_id: 0x605a4f379a2..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:25] Pool eth.2miners.com received new job. (job_id: 0x06f9eeabc15..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:26] Pool eth.2miners.com received new job. (job_id: 0x1ab7d89b022..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:32] Pool eth.2miners.com received new job. (job_id: 0xd5f3cf0a432..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:33] Pool eth.2miners.com received new job. (job_id: 0x3547489bd20..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:39] Pool eth.2miners.com received new job. (job_id: 0x90ca7896f83..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:40] Pool eth.2miners.com received new job. (job_id: 0x15e08aa44c6..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:43] Pool eth.2miners.com received new job. (job_id: 0xdb1945bce20..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:43] Pool eth.2miners.com received new job. (job_id: 0xa44d2c4fcf9..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:43] Pool eth.2miners.com received new job. (job_id: 0x8c5f0e22023..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:44] [34;1m------------------------------------------------------------------------------------------------[0m
+[2022-07-10 05:28:44] [34;1mMining ethash with 2 GPU workers[0m
+[2022-07-10 05:28:44] [34;1mGPU PCIe      CUs CoreMHz SocMHz MemMHz TEdge TJct  TMem  FanPct  FanRpm  VDDC   Power  ETH Cfg[0m
+[2022-07-10 05:28:44] [34;1m0   04:00.0   28  900     1200   950    48C   52C   66C   73.73%  2664    618 mV  41 W  A336 (*)[0m
+[2022-07-10 05:28:44] [34;1m1   0a:00.0   28  900     1200   950    48C   51C   64C   73.73%  2664    618 mV  39 W  A336 (*)[0m
+[2022-07-10 05:28:44] [34;1m(*) Gpu is still tuning.[0m
+[2022-07-10 05:28:44] [34;1m[0m
+[2022-07-10 05:28:44] [34;1mStats Uptime: 0 days, 00:01:00[0m
+[2022-07-10 05:28:44] [34;1m----------------------------------------- GPU Status -------------------------------------------[0m
+[2022-07-10 05:28:44] [34;1mGPU  0 [48C, fan 73%]      ethash: 28.46Mh/s, avg 16.10Mh/s, pool 0.000 h/s a:0 r:0 hw:0[0m
+[2022-07-10 05:28:44] [34;1mGPU  1 [48C, fan 73%]      ethash: 28.38Mh/s, avg 16.17Mh/s, pool 0.000 h/s a:0 r:0 hw:0[0m
+[2022-07-10 05:28:44] [34;1mTotal                      ethash: 56.84Mh/s, avg 32.28Mh/s, pool 0.000 h/s a:0 r:0[0m
+[2022-07-10 05:28:44] [34;1m----------------------------------------- Pool Status ------------------------------------------[0m
+[2022-07-10 05:28:44] [34;1meth.2miners.com            ethash: 56.93Mh/s, avg 31.90Mh/s, pool 0.000 h/s a:0 r:0[0m
+[2022-07-10 05:28:44] [34;1m------------------------------------------------------------------------------------------------[0m
+[2022-07-10 05:28:50] Pool eth.2miners.com received new job. (job_id: 0x12fc2cb1ae1..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:50] Pool eth.2miners.com received new job. (job_id: 0x9332b206869..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:57] Pool eth.2miners.com received new job. (job_id: 0xc6ac2bec8c6..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:58] Pool eth.2miners.com received new job. (job_id: 0xde34d76ae54..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:58] Pool eth.2miners.com received new job. (job_id: 0x3a86ca8c25e..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:58] Pool eth.2miners.com received new job. (job_id: 0xde34d76ae54..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:59] Pool eth.2miners.com received new job. (job_id: 0x9538bc3b9f5..., diff 2.032 / 8726 MH)
+[2022-07-10 05:28:59] Pool eth.2miners.com received new job. (job_id: 0x72a2928a3fb..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:05] Pool eth.2miners.com received new job. (job_id: 0xc7c6982bb60..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:09] Pool eth.2miners.com received new job. (job_id: 0x916b8ee9bf6..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:09] Pool eth.2miners.com received new job. (job_id: 0xac4890d6647..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:09] Pool eth.2miners.com received new job. (job_id: 0x916b8ee9bf6..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:10] Pool eth.2miners.com received new job. (job_id: 0xeb01d9cbc1d..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:11] Pool eth.2miners.com received new job. (job_id: 0xaae2e0bd947..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:11] Pool eth.2miners.com received new job. (job_id: 0xeb01d9cbc1d..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:12] Pool eth.2miners.com received new job. (job_id: 0xd1ad954560f..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:14] [34;1m------------------------------------------------------------------------------------------------[0m
+[2022-07-10 05:29:14] [34;1mMining ethash with 2 GPU workers[0m
+[2022-07-10 05:29:14] [34;1mGPU PCIe      CUs CoreMHz SocMHz MemMHz TEdge TJct  TMem  FanPct  FanRpm  VDDC   Power  ETH Cfg[0m
+[2022-07-10 05:29:14] [34;1m0   04:00.0   28  900     1200   950    49C   52C   68C   73.73%  2664    618 mV  41 W  A432 (*)[0m
+[2022-07-10 05:29:14] [34;1m1   0a:00.0   28  900     1200   950    49C   52C   66C   73.73%  2664    618 mV  39 W  A444 (*)[0m
+[2022-07-10 05:29:14] [34;1m(*) Gpu is still tuning.[0m
+[2022-07-10 05:29:14] [34;1m[0m
+[2022-07-10 05:29:14] [34;1mStats Uptime: 0 days, 00:01:30[0m
+[2022-07-10 05:29:14] [34;1m----------------------------------------- GPU Status -------------------------------------------[0m
+[2022-07-10 05:29:14] [34;1mGPU  0 [49C, fan 73%]      ethash: 29.00Mh/s, avg 20.22Mh/s, pool 0.000 h/s a:0 r:0 hw:0[0m
+[2022-07-10 05:29:14] [34;1mGPU  1 [49C, fan 73%]      ethash: 29.00Mh/s, avg 20.27Mh/s, pool 0.000 h/s a:0 r:0 hw:0[0m
+[2022-07-10 05:29:14] [34;1mTotal                      ethash: 58.00Mh/s, avg 40.49Mh/s, pool 0.000 h/s a:0 r:0[0m
+[2022-07-10 05:29:14] [34;1m----------------------------------------- Pool Status ------------------------------------------[0m
+[2022-07-10 05:29:14] [34;1meth.2miners.com            ethash: 54.26Mh/s, avg 39.01Mh/s, pool 0.000 h/s a:0 r:0[0m
+[2022-07-10 05:29:14] [34;1m------------------------------------------------------------------------------------------------[0m
+[2022-07-10 05:29:17] Pool eth.2miners.com received new job. (job_id: 0xa7d36e216c0..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:21] [32;1mPool eth.2miners.com share accepted. (GPU0) (a:1 r:0) (29 ms) (diff 8.87 GH)[0m
+[2022-07-10 05:29:22] Pool eth.2miners.com received new job. (job_id: 0xa4e7b472b88..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:22] Pool eth.2miners.com received new job. (job_id: 0x3ffb6ca358e..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:22] Pool eth.2miners.com received new job. (job_id: 0xd88fbdb17bb..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:24] Pool eth.2miners.com received new job. (job_id: 0x06db8b1c1ca..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:24] Pool eth.2miners.com received new job. (job_id: 0xf0e2845e310..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:26] Pool eth.2miners.com received new job. (job_id: 0x3494917ef15..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:26] Pool eth.2miners.com received new job. (job_id: 0x60f3397e09b..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:27] Pool eth.2miners.com received new job. (job_id: 0x0321b003841..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:34] Pool eth.2miners.com received new job. (job_id: 0xc21e73ab956..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:34] Pool eth.2miners.com received new job. (job_id: 0x35e8a32d210..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:36] [33;1mGPU 1 Tuning complete. Using config A448[0m
+[2022-07-10 05:29:41] Pool eth.2miners.com received new job. (job_id: 0x23b392dceb4..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:42] Pool eth.2miners.com received new job. (job_id: 0xdc437b1cc79..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:43] Pool eth.2miners.com received new job. (job_id: 0xecc5a655cf1..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:43] Pool eth.2miners.com received new job. (job_id: 0xd9f938db1eb..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:44] Pool eth.2miners.com received new job. (job_id: 0x619923c32e5..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:44] [34;1m------------------------------------------------------------------------------------------------[0m
+[2022-07-10 05:29:44] [34;1mMining ethash with 2 GPU workers[0m
+[2022-07-10 05:29:44] [34;1mGPU PCIe      CUs CoreMHz SocMHz MemMHz TEdge TJct  TMem  FanPct  FanRpm  VDDC   Power  ETH Cfg[0m
+[2022-07-10 05:29:44] [34;1m0   04:00.0   28  900     1200   950    49C   53C   68C   73.73%  2664    618 mV  41 W  A415 (*)[0m
+[2022-07-10 05:29:44] [34;1m1   0a:00.0   28  900     1200   950    49C   52C   66C   73.73%  2664    618 mV  39 W  A448[0m
+[2022-07-10 05:29:44] [34;1m(*) Gpu is still tuning.[0m
+[2022-07-10 05:29:44] [34;1m[0m
+[2022-07-10 05:29:44] [34;1mStats Uptime: 0 days, 00:02:00[0m
+[2022-07-10 05:29:44] [34;1m----------------------------------------- GPU Status -------------------------------------------[0m
+[2022-07-10 05:29:44] [34;1mGPU  0 [49C, fan 73%]      ethash: 29.01Mh/s, avg 22.28Mh/s, pool 72.65Mh/s a:1 r:0 hw:0[0m
+[2022-07-10 05:29:44] [34;1mGPU  1 [49C, fan 73%]      ethash: 29.01Mh/s, avg 22.53Mh/s, pool 0.000 h/s a:0 r:0 hw:0[0m
+[2022-07-10 05:29:44] [34;1mTotal                      ethash: 58.02Mh/s, avg 44.81Mh/s, pool 72.65Mh/s a:1 r:0[0m
+[2022-07-10 05:29:44] [34;1m----------------------------------------- Pool Status ------------------------------------------[0m
+[2022-07-10 05:29:44] [34;1meth.2miners.com            ethash: 57.19Mh/s, avg 43.69Mh/s, pool 72.65Mh/s a:1 r:0[0m
+[2022-07-10 05:29:44] [34;1m------------------------------------------------------------------------------------------------[0m
+[2022-07-10 05:29:51] Pool eth.2miners.com received new job. (job_id: 0xb118b55554f..., diff 2.032 / 8726 MH)
+[2022-07-10 05:29:51] Pool eth.2miners.com received new job. (job_id: 0xa7a23695593..., diff 2.032 / 8726 MH)
